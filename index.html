@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<htmml lang="en"> 
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, inital - scale=1.0">
+     <link rel="stylesheet" href="style.css"> 
+    <title>Perfessional Portfolio</title>
+</head>
+<body>
+    <div id="header"> 
+     <div class="container">
+    <nav>
+        <img src="downloads/portfolio.jpj" class="logo">
+        <ul>
+         
+           <li><a href="#">Home</a></li> 
+         <li><a href="#">About</a></li>
+         <li><a href="#">Portfolio</a></li>  
+         <li><a href="#">Contact</a></li>
+            
+        </ul>
+    </nav>
+    <div class="header-text">
+        <p>Professional Portfolio</p>
+        <h1>Hello, Im Sam Bishop</h1>
+
+ </div>
+ 
+ <div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1"> <img src="portpic.jpeg" alt=""> </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me </h1>
+            <P>My name is Sam Bishop i am currently a fitness coach
+                looking for a more exciting career which is what lead me to coding school.
+                love critcal thinking, and i love problem solving.
+            </P>
+            <div class="tab-titles active-link" id="Education">
+                <P class="tab-links active-link" onclick="open('Education')">Education</P>
+                <P class="tab-links" onclick="open('Skills')">Skills</P>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><Span>UTSA</Span><br>Texas Tech </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+        </div>
+
+        </div>
+
+
+    </div>
+
+
+ </div>
+    <script>
+var tablinks = document.getElementsByTagName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname)
+
+    for(tablink of tablink){
+        tablink.classlist.remove("active-link")
+    }
+    for(tabcontents of tabcontents){
+        tabcontent.classlist.remove("active-tab")
+}
+
+    </script>
+</body>
+</htmml>
